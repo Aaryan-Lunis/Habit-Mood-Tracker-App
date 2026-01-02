@@ -56,12 +56,17 @@ app/
 ├── models/ # Data models
 ├── api/ # API & networking logic
 └── res/ # UI layouts, drawables, themes
+
+yaml
+Copy code
+
 ---
+
 ## 🔐 API Key & Environment Setup
 
 This project uses external APIs that are **not included in the repository** for security reasons.
 
-### Steps to run locally:
+### Steps to run locally
 
 1. Clone the repository
    ```bash
