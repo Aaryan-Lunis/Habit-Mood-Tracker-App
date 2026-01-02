@@ -56,10 +56,6 @@ app/
 ├── models/ # Data models
 ├── api/ # API & networking logic
 └── res/ # UI layouts, drawables, themes
-
-yaml
-Copy code
-
 ---
 
 ## 🔐 API Key & Environment Setup
