@@ -1,110 +1,105 @@
-# 📱 Habit & Mood Tracker App
+<h1>📱 Habit & Mood Tracker App</h1>
 
+<p>
 An Android application designed to help users build better habits, track moods, and improve mental well-being through structured logging, insightful dashboards, and an AI-powered wellness chatbot.
+</p>
 
----
+<hr>
 
-## ✨ Features
+<h2>✨ Features</h2>
 
-- 📊 **Habit Tracking**
-  - Log daily habits and activities
-  - Track consistency and streaks over time
+<ul>
+  <li><b>📊 Habit Tracking</b> – Log daily habits and track streaks</li>
+  <li><b>😊 Mood Tracking</b> – Record moods and visualize trends</li>
+  <li><b>🙏 Gratitude Journal</b> – Daily gratitude entries</li>
+  <li><b>🤖 AI Wellness Chatbot</b> – Powered by Google Gemini AI</li>
+  <li><b>🔐 Authentication & Cloud Sync</b> – Firebase Auth & Firestore</li>
+  <li><b>🎨 Clean UI</b> – Modern dashboard with fragments</li>
+</ul>
 
-- 😊 **Mood Tracking**
-  - Record daily mood states
-  - Visualize emotional patterns and trends
+<hr>
 
-- 🙏 **Gratitude Journal**
-  - Write and store daily gratitude entries
-  - Encourage positive reflection and mindfulness
+<h2>🛠 Tech Stack</h2>
 
-- 🤖 **AI Wellness Chatbot**
-  - Powered by **Google Gemini AI**
-  - Provides motivational, productivity, and wellness guidance
-  - Context-aware and friendly responses
+<ul>
+  <li>Android (Java)</li>
+  <li>Firebase (Auth, Firestore, Storage)</li>
+  <li>Google Gemini AI API</li>
+  <li>Room Database</li>
+  <li>RecyclerView & Fragments</li>
+  <li>Gradle (Kotlin DSL)</li>
+</ul>
 
-- 🔐 **Authentication & Cloud Sync**
-  - Firebase Authentication for secure login/signup
-  - Cloud-based data storage with Firestore
+<hr>
 
-- 🎨 **Clean & Modern UI**
-  - Dashboard with statistics and streaks
-  - Intuitive navigation using fragments
+<h2>📂 Project Structure</h2>
 
----
-
-## 🛠 Tech Stack
-
-- **Android** (Java)
-- **Firebase**
-  - Authentication
-  - Firestore Database
-  - Cloud Storage
-- **Gemini AI API**
-- **Room Database**
-- **RecyclerView & Fragments**
-- **Gradle (Kotlin DSL)**
-
----
-
-## 📂 Project Structure
-
+<pre>
 app/
-├── activities/ # Login, Signup, Dashboard
-├── fragments/ # Dashboard, Chatbot, Habits, Mood, Settings
-├── adapters/ # RecyclerView adapters
-├── models/ # Data models
-├── api/ # API & networking logic
-└── res/ # Layouts, drawables, themes
+ ├── activities/        # Login, Signup, Dashboard
+ ├── fragments/         # Dashboard, Chatbot, Habits, Mood, Settings
+ ├── adapters/          # RecyclerView adapters
+ ├── models/            # Data models
+ ├── api/               # API & networking logic
+ └── res/               # Layouts, drawables, themes
+</pre>
 
+<hr>
 
+<h2>🔐 API Key & Environment Setup</h2>
 
----
+<ol>
+  <li>Clone the repository</li>
+</ol>
 
-## 🔐 API Key & Environment Setup
+<pre>
+git clone https://github.com/Aaryan-Lunis/Habit-Mood-Tracker-App.git
+</pre>
 
-This project uses external APIs that are **not included in the repository** for security reasons.
+<ol start="2">
+  <li>Open the project in Android Studio</li>
+  <li>Create a <code>local.properties</code> file</li>
+  <li>Add your Gemini API key</li>
+</ol>
 
-### Steps to run locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Aaryan-Lunis/Habit-Mood-Tracker-App.git
-Open the project in Android Studio
-
-Create a local.properties file in the root directory
-
-Add your Gemini API key:
-
-properties
-Copy code
+<pre>
 GEMINI_API_KEY=your_api_key_here
-Sync Gradle and run the app
+</pre>
 
-⚠️ local.properties is intentionally ignored by Git to prevent secret exposure.
+<p>
+<b>Note:</b> <code>local.properties</code> is ignored by Git to prevent secret exposure.
+</p>
 
-🔒 Security Notes
-No private API keys are committed to the repository
+<hr>
 
-Firebase access is controlled via authentication and security rules
+<h2>🔒 Security Notes</h2>
 
-Gemini API key is injected securely at build time
+<ul>
+  <li>No private API keys are committed</li>
+  <li>Firebase access is secured via auth & rules</li>
+  <li>Gemini API key is injected at build time</li>
+</ul>
 
-🚀 Future Enhancements
-Advanced analytics for habit and mood correlations
+<hr>
 
-Personalized AI recommendations
+<h2>🚀 Future Enhancements</h2>
 
-Push notifications for habit reminders
+<ul>
+  <li>Advanced habit–mood analytics</li>
+  <li>Personalized AI recommendations</li>
+  <li>Push notifications</li>
+  <li>Dark mode & themes</li>
+  <li>Data export & insights</li>
+</ul>
 
-Dark mode customization
+<hr>
 
-Data export & insights dashboard
+<h2>👤 Author</h2>
 
-👤 Author
-Aaryan Lunis
-Computer Engineering Student | Android & AI Enthusiast
+<p>
+<b>Aaryan Lunis</b><br>
+Computer Engineering Student | Android & AI Enthusiast<br>
+GitHub: <a href="https://github.com/Aaryan-Lunis">https://github.com/Aaryan-Lunis</a>
+</p>
 
-GitHub: https://github.com/Aaryan-Lunis
-
-⭐ If you find this project interesting, feel free to star the repository!
+<p>⭐ If you find this project interesting, feel free to star the repository!</p>
