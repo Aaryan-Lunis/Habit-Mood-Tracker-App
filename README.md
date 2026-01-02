@@ -55,13 +55,8 @@ app/
 ├── adapters/ # RecyclerView adapters
 ├── models/ # Data models
 ├── api/ # API & networking logic
-├── res/ # UI layouts, drawables, themes
-
-yaml
-Copy code
-
+└── res/ # UI layouts, drawables, themes
 ---
-
 ## 🔐 API Key & Environment Setup
 
 This project uses external APIs that are **not included in the repository** for security reasons.
