@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "562474984609",
+    "project_id": "habitmoodtracker",
+    "storage_bucket": "habitmoodtracker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562474984609:android:2489e19cc6ce4627ad3ce0",
+        "android_client_info": {
+          "package_name": "com.example.habitmoodtracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjwrvMXAjjSQTUW8EHHaD5CwSpHoq_hGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

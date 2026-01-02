@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F4F6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚙️ Settings"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#374151"
+            android:layout_marginBottom="20dp" />
+
+        <!-- User Profile Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="👤 Profile"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#374151"
+                    android:layout_marginBottom="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:textSize="14sp"
+                    android:textColor="#64748B" />
+
+                <TextView
+                    android:id="@+id/textViewUserEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="user@example.com"
+                    android:textSize="16sp"
+                    android:textColor="#374151"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User ID:"
+                    android:textSize="14sp"
+                    android:textColor="#64748B" />
+
+                <TextView
+                    android:id="@+id/textViewUserId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UID123456"
+                    android:textSize="12sp"
+                    android:textColor="#9CA3AF"
+                    android:fontFamily="monospace" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Theme Settings Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🎨 Theme Mode"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#374151"
+                    android:layout_marginBottom="16dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radioLight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="☀️ Light Mode"
+                        android:padding="12dp" />
+
+                    <RadioButton
+                        android:id="@+id/radioDark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="🌙 Dark Mode"
+                        android:padding="12dp" />
+
+                    <RadioButton
+                        android:id="@+id/radioSystem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="📱 System Default"
+                        android:padding="12dp" />
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/buttonThemeDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Quick Theme Selector"
+                    android:backgroundTint="@color/primary_color" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Color Theme Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardColors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🎨 Accent Color"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#374151"
+                    android:layout_marginBottom="16dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radioPurple"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="💜 Purple (Default)"
+                        android:padding="12dp" />
+
+                    <RadioButton
+                        android:id="@+id/radioBlue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="💙 Blue"
+                        android:padding="12dp" />
+
+                    <RadioButton
+                        android:id="@+id/radioGreen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="💚 Green"
+                        android:padding="12dp" />
+                    <RadioButton
+                        android:id="@+id/radioPink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="💗 Pink"
+                        android:padding="12dp" />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="ℹ️ Restart the app to see color changes"
+                    android:textSize="12sp"
+                    android:textColor="#9CA3AF"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🚪 Logout"
+            android:textSize="16sp"
+            android:backgroundTint="#EF4444"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:text="Habit Mood Tracker v1.0"
+            android:textSize="12sp"
+            android:textColor="#9CA3AF" />
+
+    </LinearLayout>
+</ScrollView>

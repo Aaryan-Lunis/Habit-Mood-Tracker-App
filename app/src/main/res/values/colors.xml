@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary App Colors -->
+    <color name="primary_color">#6366F1</color>
+    <color name="accent_color">#8B5CF6</color>
+    <color name="secondary_color">#EC4899</color>
+    <color name="md_theme_light_primary">#6750A4</color> <!-- Example purple -->
+    <color name="md_theme_light_secondary">#625B71</color>
+    <!-- Background Colors -->
+    <color name="background_gradient_start">#F8FAFF</color>
+    <color name="background_gradient_end">#F1F5F9</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="primary_text">#1E293B</color>
+    <color name="secondary_text">#64748B</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Feature Colors -->
+    <color name="mood_color">#F59E0B</color>
+    <color name="energy_color">#10B981</color>
+    <color name="sleep_color">#6366F1</color>
+    <color name="water_color">#06B6D4</color>
+    <color name="exercise_color">#EF4444</color>
+    <color name="meditation_color">#8B5CF6</color>
+    <color name="social_color">#EC4899</color>
+
+    <!-- Slider Colors -->
+    <color name="slider_inactive">#E2E8F0</color>
+
+    <!-- Navigation Colors -->
+    <color name="nav_item_color">@color/accent_color</color>
+
+    <!-- Status Bar -->
+    <color name="status_bar_color">#5B21B6</color>
+</resources>
