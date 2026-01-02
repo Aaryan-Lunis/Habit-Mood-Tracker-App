@@ -57,8 +57,7 @@ app/
 ├── api/ # API & networking logic
 └── res/ # Layouts, drawables, themes
 
-yaml
-Copy code
+
 
 ---
 
