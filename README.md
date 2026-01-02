@@ -40,8 +40,8 @@ An Android application designed to help users build better habits, track moods, 
   - Authentication
   - Firestore Database
   - Cloud Storage
-- **Gemini AI API** (for chatbot)
-- **Room Database** (local persistence)
+- **Gemini AI API**
+- **Room Database**
 - **RecyclerView & Fragments**
 - **Gradle (Kotlin DSL)**
 
@@ -50,12 +50,16 @@ An Android application designed to help users build better habits, track moods, 
 ## 📂 Project Structure
 
 app/
-├── activities/ # Main activities (Login, Signup, Dashboard)
+├── activities/ # Login, Signup, Dashboard
 ├── fragments/ # Dashboard, Chatbot, Habits, Mood, Settings
 ├── adapters/ # RecyclerView adapters
 ├── models/ # Data models
 ├── api/ # API & networking logic
-└── res/ # UI layouts, drawables, themes
+└── res/ # Layouts, drawables, themes
+
+yaml
+Copy code
+
 ---
 
 ## 🔐 API Key & Environment Setup
@@ -64,7 +68,7 @@ This project uses external APIs that are **not included in the repository** for 
 
 ### Steps to run locally
 
-1. Clone the repository
+1. Clone the repository:
    ```bash
    git clone https://github.com/Aaryan-Lunis/Habit-Mood-Tracker-App.git
 Open the project in Android Studio
@@ -90,11 +94,11 @@ Gemini API key is injected securely at build time
 🚀 Future Enhancements
 Advanced analytics for habit and mood correlations
 
-Personalized AI recommendations based on user history
+Personalized AI recommendations
 
 Push notifications for habit reminders
 
-Dark mode customization and themes
+Dark mode customization
 
 Data export & insights dashboard
 
