@@ -6,6 +6,7 @@ An Android application designed to help users build better habits, track moods, 
 
 <hr>
 
+
 <h2>✨ Features</h2>
 
 <ul>
